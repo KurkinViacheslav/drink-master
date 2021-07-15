@@ -4,9 +4,9 @@ services:
     build:
       context: .
     ports:
-      - 80:80
+      - 8080:8080
     environment:
-      - "APP_PORT=5432"
+      - "APP_PORT=8080"
       - "LOGIN_POSTGRES=postgres"
       - "PASSWORD_POSTGRES=319337"
       - "DB_URL=jdbc:postgresql://192.168.1.3:5432/drink_db"
